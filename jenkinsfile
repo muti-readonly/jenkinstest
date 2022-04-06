@@ -5,6 +5,7 @@ pipeline {
             steps {
                 script {
                     def val1 = "TEST"
+		    print val1
 		}
 	    }
 	}
