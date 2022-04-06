@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    stages {
+        stage('prepare') {
+            steps {
+                script {
+                    def val1 = "TEST"
+		}
+	    }
+	}
+	stage('execution') {
+            steps {
+                script {
+                    print val1
+		}
+	    }
+	}
+    }
+}
