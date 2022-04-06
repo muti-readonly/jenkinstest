@@ -4,7 +4,7 @@ pipeline {
         stage('prepare') {
             steps {
                 script {
-                    def val1 = "TEST"
+                    val1 = "TEST"
 		    print val1
 		}
 	    }
